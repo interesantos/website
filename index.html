@@ -3,149 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="R2-D2.CLICK helps small and medium businesses automate their marketing posts on 12 platforms including Facebook, Instagram, Twitter, LinkedIn, and more for only $100/month.">
-    <meta name="keywords" content="Marketing Automation, Social Media Automation, Facebook Automation, Instagram Automation, Twitter Automation, LinkedIn Automation, Small Business Marketing, Automated Marketing, Content Planning, Social Media Posting, R2-D2.CLICK, Marketing Posts, Automated Posts, Medium Businesses, Business Growth, Social Media Management">
-    <meta name="author" content="R2-D2.CLICK">
-    <meta property="og:title" content="R2-D2.CLICK | Automate Your Marketing Posts on 12 Platforms">
-    <meta property="og:description" content="Automate your marketing publications for $100/month per platform. We help small and medium businesses manage their marketing posts effortlessly across Facebook, Instagram, Twitter, LinkedIn, and more.">
-    <meta property="og:url" content="https://yourusername.github.io/r2-d2-click">
+    <title>R2-D2.CLICK - Automated Marketing Solutions for Small and Medium Businesses</title>
+    <meta name="description" content="R2-D2.CLICK provides automated marketing solutions for small and medium businesses. Generate, manage, and automate your marketing publications across multiple social media platforms.">
+    <meta name="keywords" content="automated marketing, social media automation, content planning, multi-platform posting, small business marketing, medium business marketing">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://yourusername.github.io/r2-d2-click/og-image.jpg"> <!-- Add relevant image later -->
-    <meta name="robots" content="index, follow">
-    <title>R2-D2.CLICK | Automate Your Marketing Posts</title>
+    <meta property="og:url" content="https://r2-d2.click/">
+    <meta property="og:title" content="R2-D2.CLICK - Automated Marketing Solutions">
+    <meta property="og:description" content="Automate your marketing across multiple social media platforms. Ideal for small and medium businesses.">
+    <meta property="og:image" content="https://r2-d2.click/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://r2-d2.click/">
+    <meta property="twitter:title" content="R2-D2.CLICK - Automated Marketing Solutions">
+    <meta property="twitter:description" content="Automate your marketing across multiple social media platforms. Ideal for small and medium businesses.">
+    <meta property="twitter:image" content="https://r2-d2.click/twitter-image.jpg">
+
     <style>
+        /* CSS styles remain the same as in the previous version */
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            color: #333;
         }
-        header, footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
-        #hero {
-            background-color: #f4f4f4;
-            padding: 3em;
-            text-align: center;
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
         }
-        .cta-button {
-            background-color: #007bff;
-            color: white;
-            padding: 0.75em 1.5em;
+        header a {
+            color: #ffffff;
             text-decoration: none;
-            border-radius: 5px;
-            margin-top: 1em;
+            text-transform: uppercase;
+            font-size: 16px;
         }
-        section {
-            padding: 2em;
+        header #branding {
+            float: left;
         }
-        ul {
-            list-style: none;
-            padding: 0;
+        header #branding h1 {
+            margin: 0;
         }
-        ul li {
-            margin-bottom: 0.5em;
+        header nav {
+            float: right;
+            margin-top: 10px;
         }
-        blockquote {
-            background-color: #f9f9f9;
-            border-left: 5px solid #ccc;
-            padding: 1em;
-            margin: 1em 0;
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
         }
-        blockquote cite {
-            display: block;
-            text-align: right;
-            margin-top: 0.5em;
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('/api/placeholder/1200/400') no-repeat center center/cover;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .button {
+            display: inline-block;
+            font-size: 18px;
+            color: #ffffff;
+            background: #e8491d;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        #services, #process, #pricing, #benefits {
+            margin-top: 20px;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        #process .step {
+            background: #e6e6e6;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #35424a;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>R2-D2.CLICK</h1>
-        <p>Automation for Your Marketing Publications</p>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">R2-D2</span>.CLICK</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="hero">
-        <h2>Automate Your Marketing and Focus on Growing Your Business</h2>
-        <p>We help small and medium businesses generate, manage, and automate their marketing publications across 12 different platforms.</p>
-        <a href="#pricing" class="cta-button">Get Started for $100/month</a>
-    </section>
-
-    <section id="how-it-works">
-        <h2>How R2-D2.CLICK Works</h2>
-        <div class="step">
-            <h3>1. Create a Content Plan</h3>
-            <p>We collaborate with you to craft a monthly content plan tailored to your business goals.</p>
-        </div>
-        <div class="step">
-            <h3>2. Generate Engaging Content</h3>
-            <p>We generate text and images for each post, ensuring high-quality, engaging content for your audience.</p>
-        </div>
-        <div class="step">
-            <h3>3. Get Your Approval</h3>
-            <p>Approve the posts you like, and we'll regenerate the ones you don't, giving you full control over your brand's voice.</p>
-        </div>
-        <div class="step">
-            <h3>4. Post on Autopilot</h3>
-            <p>We publish 2-3 posts per day on each platform, so you can sit back and watch your audience grow.</p>
+    <section id="showcase">
+        <div class="container">
+            <h1>Automate Your Marketing, Amplify Your Reach</h1>
+            <p>Effortless multi-platform content management for small and medium businesses</p>
+            <a href="#contact" class="button">Get Started Today</a>
         </div>
     </section>
 
     <section id="services">
-        <h2>Platforms We Automate</h2>
-        <p>We automate marketing posts on the following platforms:</p>
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>TikTok</li>
-            <li>Reddit</li>
-            <li>LinkedIn</li>
-            <li>Google Maps</li>
-            <li>Telegram</li>
-            <li>WhatsApp</li>
-            <li>Line Messenger</li>
-            <li>Quora</li>
-            <li>Medium</li>
-        </ul>
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="box">
+                <img src="/api/placeholder/150/150" alt="Content Planning">
+                <h3>Content Planning</h3>
+                <p>Strategic content calendars tailored to your business goals</p>
+            </div>
+            <div class="box">
+                <img src="/api/placeholder/150/150" alt="Content Generation">
+                <h3>Content Generation</h3>
+                <p>AI-powered text and image creation for engaging posts</p>
+            </div>
+            <div class="box">
+                <img src="/api/placeholder/150/150" alt="Multi-Platform Posting">
+                <h3>Multi-Platform Posting</h3>
+                <p>Automated publishing across 12+ social media platforms</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="step">
+                <h3>1. Create Content Plan</h3>
+                <p>We develop a comprehensive content strategy aligned with your brand</p>
+            </div>
+            <div class="step">
+                <h3>2. Generate Content</h3>
+                <p>Our AI creates text and images for each planned post</p>
+            </div>
+            <div class="step">
+                <h3>3. Customer Approval</h3>
+                <p>You review and approve posts before publication</p>
+            </div>
+            <div class="step">
+                <h3>4. Refinement</h3>
+                <p>We regenerate any posts that don't meet your expectations</p>
+            </div>
+            <div class="step">
+                <h3>5. Scheduled Posting</h3>
+                <p>Approved content is automatically published across platforms</p>
+            </div>
+        </div>
     </section>
 
     <section id="pricing">
-        <h2>Simple, Transparent Pricing</h2>
-        <p>Automate 100 posts per month for just $100 per platform. That’s only $1 per post!</p>
-        <ul>
-            <li>1 Platform: $100/month</li>
-            <li>3 Platforms: $300/month</li>
-            <li>5 Platforms: $500/month</li>
-            <li>All 12 Platforms: $1200/month</li>
-        </ul>
-        <p><a href="#contact" class="cta-button">Contact Us to Get Started</a></p>
+        <div class="container">
+            <h2>Affordable Pricing</h2>
+            <p>Just $100 per month for each platform</p>
+            <p>That's only $1 per post!</p>
+            <a href="#contact" class="button">Start Your Campaign</a>
+        </div>
     </section>
 
-    <section id="testimonials">
-        <h2>What Our Clients Say</h2>
-        <blockquote>
-            <p>"R2-D2.CLICK has transformed how we manage social media! We no longer have to worry about posting, and we’ve seen a huge boost in engagement."</p>
-            <cite>— Alex, Small Business Owner</cite>
-        </blockquote>
-        <blockquote>
-            <p>"Effortless automation, and the content they create is fantastic! Definitely worth every dollar."</p>
-            <cite>— Jamie, Marketing Manager</cite>
-        </blockquote>
+    <section id="benefits">
+        <div class="container">
+            <h2>Why Choose R2-D2.CLICK?</h2>
+            <ul>
+                <li>Save time and resources on content creation and management</li>
+                <li>Maintain a consistent online presence across multiple platforms</li>
+                <li>Increase your brand visibility and reach</li>
+                <li>Engage with your audience more effectively</li>
+                <li>Scale your marketing efforts without scaling your team</li>
+            </ul>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Get in Touch</h2>
-        <p>Ready to automate your marketing and grow your business? Reach out to us!</p>
-        <p>Email: <a href="mailto:support@r2-d2.click">support@r2-d2.click</a></p>
+        <div class="container">
+            <h2>Ready to Boost Your Online Presence?</h2>
+            <p>Contact us today to get started with your automated marketing campaign!</p>
+            <a href="mailto:info@r2-d2.click" class="button">Contact Us</a>
+        </div>
     </section>
 
     <footer>
-        <p>© 2024 R2-D2.CLICK. All Rights Reserved.</p>
-        <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
+        <p>&copy; 2024 R2-D2.CLICK. All rights reserved.</p>
     </footer>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "R2-D2.CLICK",
+      "url": "https://r2-d2.click",
+      "logo": "https://r2-d2.click/logo.png",
+      "description": "R2-D2.CLICK provides automated marketing solutions for small and medium businesses. Generate, manage, and automate your marketing publications across multiple social media platforms.",
+      "sameAs": [
+        "https://www.facebook.com/R2D2CLICK",
+        "https://www.instagram.com/R2D2CLICK",
+        "https://twitter.com/R2D2CLICK",
+        "https://www.linkedin.com/company/r2d2click"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-123-4567",
+        "contactType": "customer service",
+        "email": "info@r2-d2.click"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "USD",
+        "description": "Automated marketing services for one platform, per month"
+      }
+    }
+    </script>
 </body>
 </html>
